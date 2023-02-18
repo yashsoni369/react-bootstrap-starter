@@ -1,0 +1,17 @@
+// Override default variables before the import
+$body-bg: #bababe;
+$theme-colors: (
+  "primary": red
+//   "danger": #ff4136
+);
+
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+// Change class level defaults after import
+
+.btn-primary {
+    color:white;
+}
