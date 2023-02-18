@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# React JS Bootstrap Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A javascript based react project which contains all the essential startup files. 
+
+# Features
+
+1. Bootstrap, Jquery, Popper.js Included
+2. SASS Support (Custom theme.scss file to override bootstrap defaults)
+3. Shared Components - Header, Footer, Sidebar.
+4. Module wise folder structure
+5. Protected Routes with custom logic (JWT Check)
+6. Multiple Layouts with nested routing
+   1. Admin Layout - with its own Header, Sidebar & Router outlet
+   2. App Layout - for general user
+   3. Auth Layout - independent pages such as login, register, etc.
+
+# Note
+1. There's no layout integrated. This project is merely a skeleton with **One Liner HTML OUTPUT** in each file
+2. This repo is not complete, I will be slowly updating the code base.
+3. Comments and suggestions are accepted :)
 
 ## Available Scripts
 
